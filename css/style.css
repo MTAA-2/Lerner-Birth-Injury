@@ -50,7 +50,7 @@ body {
 
 /* ---------- Header ---------- */
 
-.site-header { background: #fff; border-bottom: 1px solid var(--line); }
+.site-header { background: rgb(143, 140, 140); border-bottom: 1px solid var(--line); }
 .header-inner { display: flex; justify-content: space-between; align-items: center; padding-top: 8px; padding-bottom: 0px; }
 .logo { text-decoration: none; color: var(--navy); }
 .logo-text { font-family: "Fraunces", Georgia, serif; font-weight: 700; font-size: 24px; letter-spacing: 0.01em; }
