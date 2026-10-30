@@ -119,9 +119,8 @@ body {
   color: #f2f2f2;
 }
 
-/* Section with full-bleed background image, parallax scroll,
-   and a color overlay. Adjust --overlay-opacity: 0 = no tint, 1 = solid color. */
-.section--parallax {
+/* Section with full-bleed background image, parallax scroll, and a color overlay. Adjust --overlay-opacity: 0 = no tint, 1 = solid color. */
+.section-parallax {
   --overlay-rgb: 19, 41, 75;      /* overlay color as R, G, B — this is your navy #13294b */
   --overlay-opacity: 0.72;        /* overlay strength */
   background-image:
@@ -140,6 +139,7 @@ body {
 /* iOS Safari ignores background-attachment: fixed — fall back to a normal scroll */
 @media (max-width: 900px) {
   .section--parallax { background-attachment: scroll; }
+}
 }
 
 /* ---------- OVERFLOW FORM CARD ----------
